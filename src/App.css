@@ -1,0 +1,38 @@
+.app{
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+.app_main{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}
+
+.task-column{
+  width: 33.33%;
+  margin: 20px;
+}
+
+
+@media (max-width: 1040px){
+    
+  .app{
+    display: grid;
+    grid-template-rows: 200px auto;
+  }
+  
+}
+
+@media (max-width: 600px){
+  .app{
+    display: grid;
+    grid-template-rows: 250px auto;
+  }
+  .task-column{
+    width: 33.33%;
+    margin: 20px;
+    
+  }
+  
+}
